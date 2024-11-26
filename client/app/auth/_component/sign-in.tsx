@@ -56,7 +56,7 @@ const SignIn = () => {
 							</FormItem>
 						)}
 					/>
-					<Button type='submit' className='w-full' size={'lg'} disabled={isPending}>
+					<Button type='submit' className='w-full rounded-[8px]' size={'lg'} disabled={isPending}>
 						Submit
 					</Button>
 				</form>
